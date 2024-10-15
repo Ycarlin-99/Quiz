@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="quiz">
+            <div id="question" class="question">Carregando pergunta...</div>
+            <img id="question-image" src="" alt="" style="width: 100%; height: auto; margin-top: 20px;" />
+            <div class="options">
+                <button id="btn0" onclick="checkAnswer(0)">Opção 1</button>
+                <button id="btn1" onclick="checkAnswer(1)">Opção 2</button>
+                <button id="btn2" onclick="checkAnswer(2)">Opção 3</button>
+                <button id="btn3" onclick="checkAnswer(3)">Opção 4</button>
+            </div>
+        </div>
+        <div id="result"></div>
+    </div>    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
